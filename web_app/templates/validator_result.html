@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>
+                Issues listed if any:
+                <br>
+                <h4>
+                    <ul>
+                        {% for thing in issues_to_print %}
+                        <li>{{ thing }}</li>
+                        {% endfor %}
+                    </ul>
+                </h4>
+            </h2>
+        </div>
+    </div>
+</div>
